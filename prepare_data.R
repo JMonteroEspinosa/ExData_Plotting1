@@ -1,5 +1,5 @@
 # load data
-setwd("/home/jmontero/Documents/coursera/exploratoryR/Wk1/ExData_Plotting1/data")
+setwd("set your directory")
 
 # strategy: find indices of observations
 
@@ -35,4 +35,4 @@ df <- read.table("household_power_consumption.txt", sep = ";",
 print(dim(df)[1] == 60 * 24 * 2)
 
 # save file
-saveRDS(df, file="power_feb.RDS")
+saveRDS(df, file="data/power_feb.RDS")

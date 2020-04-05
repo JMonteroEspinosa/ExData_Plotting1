@@ -1,5 +1,5 @@
 # load data
-setwd("/home/jmontero/Documents/coursera/exploratoryR/Wk1/ExData_Plotting1")
+setwd("set your directory")
 df <- readRDS("data/power_feb.RDS")
 
 # plot 1 is a histogram of minute-averaged global power

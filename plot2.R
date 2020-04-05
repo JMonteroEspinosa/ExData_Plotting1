@@ -1,6 +1,6 @@
 library(lubridate)
 # load data
-setwd("/home/jmontero/Documents/coursera/exploratoryR/Wk1/ExData_Plotting1")
+setwd("set your directory")
 df <- readRDS("data/power_feb.RDS")
 
 # prepare data: need to construct datetime variable
