@@ -11,7 +11,6 @@ df$datetime <- dmy_hms(datetime_string)
 Sys.setlocale("LC_TIME", "en_GB.UTF-8")
 
 # plot submetering over time
-# sub_meter1, standard colour
 with(df, {
   plot(datetime, Sub_metering_1, col = 'black',
        type = "l", ylab = "Energy sub metering", xlab = "")
